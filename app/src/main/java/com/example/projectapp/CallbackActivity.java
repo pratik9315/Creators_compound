@@ -15,6 +15,5 @@ public class CallbackActivity extends AppCompatActivity {
         setContentView(R.layout.activity_callback);
         Intent intent = getIntent();
         String message = intent.getStringExtra(ConstantsKt.LOGIN_SUCCESS_MESSAGE);
-
     }
 }
