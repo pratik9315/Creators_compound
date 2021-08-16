@@ -15,7 +15,7 @@ import com.sawolabs.androidsdk.Sawo;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn;
+    Button btn,btn1;
     ImageView infoBtn;
     TextView admin;
     @Override
@@ -23,8 +23,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         btn = findViewById(R.id.btnLogin);
         infoBtn = findViewById(R.id.infoBtn);
+
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override

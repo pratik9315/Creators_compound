@@ -14,8 +14,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:allowBackup">
-        <activity android:name=".AboutUs"
-            android:theme="@style/Theme.Design.NoActionBar"></activity>
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".AboutUs"
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity android:name=".DetailsActivity" />
         <activity
             android:name=".TikActivity"

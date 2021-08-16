@@ -256,10 +256,11 @@
 
                         <ImageView
                             android:id="@+id/clickInsta"
+                            android:scaleType="centerCrop"
                             android:layout_width="120dp"
                             android:layout_height="100dp"
                             android:background="@color/white"
-                            android:src="@drawable/instagram"
+                            android:src="@drawable/fancyinsta"
                             />
 
 
@@ -275,7 +276,7 @@
                         app:cardElevation="10dp">
 
                         <ImageView
-                            android:src="@drawable/twitter"
+                            android:src="@drawable/fancytwitter"
                             android:id="@+id/clickTwitter"
                             android:layout_width="120dp"
                             android:layout_height="100dp"
@@ -294,7 +295,7 @@
                         app:cardElevation="10dp">
 
                         <ImageView
-                            android:src="@drawable/linkedin"
+                            android:src="@drawable/fancylinkdein"
                             android:id="@+id/clickYoutube"
                             android:layout_width="120dp"
                             android:layout_height="100dp"
@@ -314,7 +315,7 @@
                         app:cardElevation="10dp">
 
                         <ImageView
-                            android:src="@drawable/tw"
+                            android:src="@drawable/fancyfb"
                             android:id="@+id/clickFb"
                             android:layout_width="120dp"
                             android:layout_height="100dp"
@@ -327,6 +328,8 @@
                 </LinearLayout>
 
             </HorizontalScrollView>
+
+
 
             <HorizontalScrollView
                 android:id="@+id/hsv2"
@@ -352,6 +355,7 @@
 
                         <ImageView
                             android:id="@+id/policies"
+                            android:src="@drawable/steal"
                             android:layout_width="120dp"
                             android:layout_height="100dp"
                             android:background="@color/white"
@@ -363,9 +367,10 @@
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:text="Youtube Policies for CopyRight"
-                            android:textColor="#FD0101"
-                            android:fontFamily="@font/poppins"
-                            android:textSize="10sp"/>
+                            android:textColor="#FF3434"
+                            android:fontFamily="@font/poppins_bold"
+                            android:textStyle="bold"
+                            android:textSize="12sp"/>
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
@@ -380,6 +385,7 @@
                         <ImageView
                             android:id="@+id/monetization"
                             android:layout_width="120dp"
+                            android:src="@drawable/ytfun"
                             android:layout_height="100dp"
                             android:background="@color/white"
                             android:scaleType="centerCrop"
@@ -389,9 +395,10 @@
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:text="Learn About Monetization"
-                            android:textColor="#FD0101"
-                            android:fontFamily="@font/poppins"
-                            android:textSize="10sp"/>
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_bold"
+                            android:textSize="12sp"/>
                     </androidx.cardview.widget.CardView>
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
@@ -404,6 +411,7 @@
 
                         <ImageView
                             android:id="@+id/toxic"
+                            android:src="@drawable/hate"
                             android:layout_width="120dp"
                             android:layout_height="100dp"
                             android:background="@color/white"
@@ -412,11 +420,12 @@
                         <TextView
                             android:layout_margin="10dp"
                             android:layout_width="100dp"
+                            android:textStyle="bold"
                             android:layout_height="wrap_content"
                             android:text="How to Face Toxicity"
-                            android:textColor="#FD0101"
-                            android:fontFamily="@font/poppins"
-                            android:textSize="10sp"/>
+                            android:textColor="#0049FF"
+                            android:fontFamily="@font/poppins_bold"
+                            android:textSize="12sp"/>
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
@@ -430,6 +439,7 @@
 
                         <ImageView
                             android:id="@+id/grow"
+                            android:src="@drawable/gseo"
                             android:layout_width="120dp"
                             android:layout_height="100dp"
                             android:background="@color/white"
@@ -440,9 +450,10 @@
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:text="SEO? Whats THAT?"
-                            android:textColor="#FD0101"
-                            android:fontFamily="@font/poppins"
-                            android:textSize="10sp"/>
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_bold"
+                            android:textSize="12sp"/>
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
@@ -456,6 +467,7 @@
 
                         <ImageView
                             android:id="@+id/More"
+                            android:src="@drawable/like"
                             android:layout_width="120dp"
                             android:layout_height="100dp"
                             android:background="@color/white"
@@ -467,10 +479,87 @@
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:text="More"
-                            android:textColor="#FD0101"
-                            android:fontFamily="@font/poppins"
-                            android:textSize="10sp"/>
+                            android:textStyle="bold"
+                            android:textColor="#FF4747"
+                            android:fontFamily="@font/poppins_bold"
+                            android:textSize="15sp"/>
                     </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:id="@+id/hsv4"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintTop_toBottomOf="@+id/edit_sub"
+                tools:layout_editor_absoluteX="0dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/person1"
+                            android:src="@drawable/person4"
+                            android:layout_width="145dp"
+                            android:layout_height="145dp"
+                            android:scaleType="centerCrop"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginBottom="10dp"
+                            />
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/person2"
+                            android:layout_width="145dp"
+                            android:src="@drawable/person2"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_height="145dp"
+                            android:scaleType="centerCrop"
+                            android:layout_marginBottom="10dp"
+                            />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/person3"
+                        android:src="@drawable/person3"
+                        android:layout_width="145dp"
+                        android:layout_height="145dp"
+                        android:scaleType="centerCrop"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"
+                        />
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/person4"
+                        android:src="@drawable/personone"
+                        android:layout_width="145dp"
+                        android:layout_height="145dp"
+                        android:scaleType="centerCrop"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/person5"
+                        android:src="@drawable/person5"
+                        android:layout_width="145dp"
+                        android:layout_height="145dp"
+                        android:scaleType="centerCrop"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"
+                        />
 
 
                 </LinearLayout>
@@ -505,7 +594,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Whats new? -->"
+                android:text="Whats new?"
                 android:textColor="@color/white"
                 android:textSize="25sp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -522,6 +611,31 @@
                 android:text="Get Inspiration from Trending Content"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <TextView
+                android:id="@+id/editors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Need a Editor?"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/hsv3" />
+
+            <TextView
+                android:id="@+id/edit_sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/white"
+                android:layout_marginLeft="15dp"
+                android:textSize="10sp"
+                android:text="Reach out to these people!"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editors" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
