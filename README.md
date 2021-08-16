@@ -30,12 +30,17 @@ are generated on our video :( Youtube's algorithm works in mysterious ways and t
 to learn basic SEO and marketing skills. Our App provides a platform where new people are introduced to the mundane idea of Search
 Engine Optimization.
 
+Creators should always take inspiration from whats happening from around the world. One of the way to make it to the Trending section
+is to create maximum number of videos from trending content. This increases your chances of being found quickly on the search bar.
+Our app fetches data from trusted servers and shows them to the user helping them stay up to date about world news.
+
 Creators can also reach out of Video editors by gmail and network with them.
 
 Technlogies used:
 Android Studio
 Sawo labs API
 Volley Library
+Google News for News data
 Circular Image Library
 
 Other technologies:
