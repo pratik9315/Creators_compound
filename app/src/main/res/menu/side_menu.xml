@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="Welcome!">
+    <menu>
+    <item android:id="@+id/home_menu"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+
+    <item android:id="@+id/dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/dash"/>
+
+    <item android:id="@+id/seo"
+        android:title="SEO Skills"
+        android:icon="@drawable/seo"/>
+    </menu>
+</item>
+
+
+
+        <item android:title="More">
+            <menu>
+                <item android:id="@+id/Share"
+                    android:title="Share"
+                    android:icon="@drawable/share"/>
+
+                <item android:id="@+id/about_us"
+                    android:title="About Us"
+                    android:icon="@drawable/information"/>
+
+            </menu>
+        </item>
+
+</menu>

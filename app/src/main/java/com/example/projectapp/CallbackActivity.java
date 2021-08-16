@@ -37,6 +37,7 @@ public class CallbackActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(CallbackActivity.this, YoutubeActivity.class));
+                finish();
             }
         });
     }
@@ -45,7 +46,8 @@ public class CallbackActivity extends AppCompatActivity {
         twitterImg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(CallbackActivity.this, TwitterActivity.class));
+                startActivity(new Intent(CallbackActivity.this, YoutubeActivity.class));
+                finish();
             }
         });
     }
@@ -54,7 +56,8 @@ public class CallbackActivity extends AppCompatActivity {
         insta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(CallbackActivity.this, InstaActivity.class));
+                startActivity(new Intent(CallbackActivity.this, YoutubeActivity.class));
+                finish();
             }
         });
     }
@@ -63,7 +66,8 @@ public class CallbackActivity extends AppCompatActivity {
         linkedin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(CallbackActivity.this, LinkedinActivity.class));
+                startActivity(new Intent(CallbackActivity.this, YoutubeActivity.class));
+                finish();
             }
         });
     }
@@ -72,7 +76,8 @@ public class CallbackActivity extends AppCompatActivity {
         twitch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(CallbackActivity.this, TwitchActivity.class));
+                startActivity(new Intent(CallbackActivity.this, YoutubeActivity.class));
+                finish();
             }
         });
     }
@@ -81,7 +86,8 @@ public class CallbackActivity extends AppCompatActivity {
         tiktok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(CallbackActivity.this, TikActivity.class));
+                startActivity(new Intent(CallbackActivity.this, YoutubeActivity.class));
+                finish();
             }
         });
     }

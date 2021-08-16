@@ -19,6 +19,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/welcome2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins"
+        android:text="Choose one"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome" />
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="60dp"
@@ -61,7 +75,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Youtube"
+                android:text="Roaster"
                 android:textColor="#FA0202" />
 
         </androidx.cardview.widget.CardView>
@@ -77,17 +91,18 @@
             <ImageView
                 android:id="@+id/twitter"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:background="#A53B1A"
-                android:src="@drawable/kam" />
+                android:scaleType="fitEnd"
+                android:layout_height="match_parent"
+                android:background="#7E726E"
+                android:src="@drawable/figmabb" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Twitter"
-                android:textColor="#2196F3" />
+                android:text="One Man Army"
+                android:textColor="#2E2728" />
         </androidx.cardview.widget.CardView>
 
     </LinearLayout>
@@ -114,7 +129,7 @@
                 android:id="@+id/insta"
                 android:layout_width="match_parent"
                 android:layout_height="220dp"
-                android:background="#FFE600"
+                android:background="#0B0B0B"
                 android:src="@drawable/yre" />
 
             <TextView
@@ -122,8 +137,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Instagram"
-                android:textColor="#E800F8" />
+                android:text="Overnight Sensation"
+                android:textColor="#FEFFFC" />
 
         </androidx.cardview.widget.CardView>
 
@@ -139,16 +154,16 @@
                 android:id="@+id/linkedin"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
-                android:background="#0BA9F1"
-                android:src="@drawable/ratan" />
+                android:background="#FAE747"
+                android:src="@drawable/bear" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Linkedin"
-                android:textColor="#054375" />
+                android:text="Spirtual One!"
+                android:textColor="#FFFFFF" />
         </androidx.cardview.widget.CardView>
 
     </LinearLayout>
@@ -182,7 +197,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Twitch"
+                android:text="Twitch Intruders?!"
                 android:textColor="@color/black" />
 
         </androidx.cardview.widget.CardView>
@@ -207,7 +222,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Tik-Tok"
+                android:text="Tik-Tok!?"
                 android:textColor="#000000" />
         </androidx.cardview.widget.CardView>
 

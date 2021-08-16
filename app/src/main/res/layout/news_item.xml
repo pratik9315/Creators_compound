@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="200dp"
+    android:id="@+id/rLayout"
+    android:layout_height="300dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:id="@+id/linear"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="200dp"
+    android:layout_height="200dp">
+
+<androidx.cardview.widget.CardView
+android:layout_width="match_parent"
+    android:layout_margin="10dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/white"
+        app:cardElevation="30dp">
+
+
+        <ImageView
+            android:id="@+id/newsPoster"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:scaleType="centerCrop"
+            android:src="@drawable/share" />
+
+</androidx.cardview.widget.CardView>
+
+</LinearLayout>
+    <TextView
+        android:id="@+id/newsTitle"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:textSize="10sp"
+        android:layout_below="@+id/linear"
+        android:text="TextView" />
+</RelativeLayout>
+
