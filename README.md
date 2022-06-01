@@ -1,15 +1,16 @@
 # Creators Compound
 
 An all in one App for creators all across the world!
-As of 2021,  there are more than 37 million YouTube channels out there. The number of channels is growing strong: last year it 
+
+_As of 2021,  there are more than 37 million YouTube channels out there. The number of channels is growing strong: last year it 
 grew more than 23%. People all around the world are creating a YouTube channel, and uploading 500 hours of video every
-minute. Millions of new channels are created EVERYDAY! 
+minute. Millions of new channels are created EVERYDAY!_ 
 Thats all the reason any new creator Should Prepare himself/herself in this areana.
 
 There are mainly 3 problems a creator faces:
-1.No money for expensive gears such as Camera,Mic and Setup
-2.Lack of SEO and Basic Marketing Skills
-3.Networking- Difficulty in finding trustworthy People
+1. No money for expensive gears such as Camera,Mic and Setup
+2. Lack of SEO and Basic Marketing Skills
+3. Networking- Difficulty in finding trustworthy People
 
 Introducing, Creators Compound
 Creators Compound is an Android App, which helps creators to provid themeselves with a platform to Pitch their Ideas to Well known
