@@ -37,11 +37,12 @@ Our app fetches data from trusted servers and shows them to the user helping the
 Creators can also reach out of Video editors by gmail and network with them.
 
 Technlogies used:
-Android Studio
-Sawo labs API
-Volley Library
-Google News for News data
-Circular Image Library
+- Android Studio
+- Sawo labs API
+- Volley Library
+- Google News for News data
+- Circular Image Library
 
 Other technologies:
-Figma used for prototyping, Circular Imageview dependancy
+- Figma used for prototyping 
+- Circular Imageview dependancy
