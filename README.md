@@ -69,3 +69,9 @@ Technlogies used:
 Other technologies:
 - Figma used for prototyping 
 - Circular Imageview dependancy
+
+## Contributors
+
+<a href="https://github.com/pratik2315/Creators_compound/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=pratik2315/Creators_compound" />
+</a>
